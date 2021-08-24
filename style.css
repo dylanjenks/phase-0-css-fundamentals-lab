@@ -2,4 +2,56 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  background: rgb(185, 228, 235);
+}
+
+header {
+  background: rgb(0, 0, 0);
+}
+
+header h1 { 
+  text-align: center;
+  color: rgb(50, 50, 53);
+  font-weight: bolder;
+  font-family::Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: rgb(208, 236, 240);
+}
+
+nav a {
+  color: rgb(202, 202, 209);
+  background-color: rgb(17, 0, 77); 
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+header nav {
+  text-align: center
+
+
+}
+
+[id="featured-property"] img {   
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+[id="featured-property"] figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+[id="featured-property"] p {
+  text-align:center;
+  width: 800px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+[id="details"] div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: honeydew;
 }
